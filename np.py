@@ -1,9 +1,9 @@
 from tkinter import *
 root = Tk()
 root.title("HELLO! WELCOME TO NUMBERPAD.")
-root.geometry('250X300')
+root.geometry('250x300')
 frame = Frame(master=root, height=200, width=360,bg = "#d0efff")
-nums = [[9,8,7],[6,5,4],[3,2,1]['#',0,'*']]
+nums = [[9,8,7],[6,5,4],[3,2,1],['#',0,'*']]
 for i in range(4):
     root.columnconfigure(i,weight=1,minsize=75)
     root.rowconfigure(i,weight=1,minsize=50)
