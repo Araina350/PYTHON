@@ -1,0 +1,10 @@
+binary  = input("Enter the digit")
+decimal = 0
+power = 0
+i = len(binary)-1
+while i>=0:
+    digit = int(binary[i])
+    decimal = decimal + digit *(2 ** power)
+    power = power + 1
+    i = i - 1
+print("Decimal = ",decimal)    
